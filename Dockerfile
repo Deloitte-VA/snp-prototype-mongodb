@@ -39,6 +39,7 @@ ADD conf/bootstrap.conf /etc/supervisor/conf.d/bootstrap.conf
 
 # add bootstrap files for loading
 ADD test-data.js /bootstrap/data/test-data.js
+ADD data/fhirdb.js /bootstrap/data/fhirdb.js
 
 # expose the ports (mongodb is already exposed)
 EXPOSE 22
